@@ -7,9 +7,14 @@ td{
 	border-radius:5px;
 	padding:8px;
 }
-table tr:nth-child(odd){
+th{
+	border-radius:5px;
+	padding:8px;
+	border:1px solid #ccc;
+}
+table tr:nth-child(odd) td{
 	background-color:#f2f2f2;
 }
-table tr:nth-child(even){
+table tr:nth-child(even) td{
 	background-color:#ffffff;
 }
